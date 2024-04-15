@@ -1,0 +1,26 @@
+{
+  "name": "possystem",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "build": "npm install"
+  },
+  "keywords": [],
+  "author": "Pallavi",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.20.2",
+    "colors": "^1.4.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "joi": "^17.12.3",
+    "mongoose": "^7.6.11",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.22",
+    "zxcvbn": "^4.4.2"
+  }
+}
